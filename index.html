@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+<meta charset= "utf-8" />
+<title> Marima Andrew Mambondiumwe</title>
+<meta name="viewport content"= "width=divice-width, initial-scale= 1.0">
+<link rel="stylesheet" href="blueberry.css" />
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+<style type="text/css">
+
+		
+	@import url(http://weloveiconfonts.com/api/?family=entypo);
+	#wrapper {
+		width: 350px;
+		height: 50px;
+		margin: 50px;
+		}
+		.box {
+			width: 70px;
+			height:70px;
+			border-radius: 70px;
+			font-family: entypo;
+			color: #212121; 
+			background: #fff;
+			text-align: center;
+			line-height: 70px;
+			font-size:40px;
+			display: block;
+			cursor: pointer;
+			margin: 10px;
+			transition: 1s;
+			}
+		.box:hover {
+			color: #fff;
+			transform: scale(1.15);
+			transition: 1s;	
+		}
+		#facebook:hover {
+			background-color: rgb(59, 89, 152);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+			}
+					
+		#linkedin:hover {
+			background-color: rgb(0, 123, 181);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+			}
+					
+		#instagram:hover {
+			background-color: rgb(233, 89, 80);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+			}
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	background: #f0f0f0;
+	font: 14px/20px Tangerine, San Serif;
+	color: #000000;
+	font-size:36px;
+	margin-top: 3%;
+	min-height: 400px
+	position:relative;
+}
+h1 {
+	padding-top:0%;
+	padding-bottom:1%;
+	font-size:45px;
+	width: 200px;
+    max-width:80%;
+    margin:auto;
+	position:relative;
+}
+p {
+	padding-top:1%;
+	padding-bottom:1%;
+	font-size:40px;
+	width: 900px;
+    max-width:80%;
+    margin:auto;
+	position:relative;
+}
+h2 {
+	float:left;
+	padding-top:3%;
+	padding-bottom:1%;
+	font-size:1.2em;
+	color:#000000;
+	position:relative;
+}
+h3 {
+	padding-top:5%;
+	padding-bottom:1%;
+	font-size:40px;
+	color:#FFF;
+	position:relative;
+}
+h4 {
+	text-alignment:center;
+	float:center;
+	padding-top:1%;
+	padding-bottom:5%;
+	font-size:25px;
+	color:#FFF;
+	width: 600px;
+    max-width:80%;
+    margin:auto;
+	position:relative;
+	}
+a {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline
+}
+header {
+	background: #1E90FF;
+	width: 100%;
+	min-height: 110px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.70;	
+}
+nav{
+	float: right;
+	padding: 35px 35px 35px ;
+	top:0;
+	right: 0;
+	position: fixed;
+}
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+}
+a: hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+.current {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#doc {
+	margin: 40px 0;
+}
+#content {
+	margin: 0 auto;
+	max-width: 2500px;
+	margin-top: 110px;
+}
+.blueberry {
+	max-width: 2500px;
+	margin-top:110px;
+}
+footer {
+	background: #333333;
+	width: 100%
+	overflow: hidden;
+	opacity: 0.70;
+	line-height: 5px;
+	list-style-type: none;
+	font-color: #FFF;
+}
+footer h3 {
+	float:center;
+	padding-top:5%;
+	padding-bottom:1%;
+	font-size:40px;
+	position:relative;	
+}
+footer h4 {
+	float:center;
+	padding-top:1%;
+	padding-bottom:5%;
+	font-size:25px;
+	width: 600px;
+    max-width:80%;
+    margin:auto;
+	position:relative;
+}
+/*-------------------------------------MEDIA------------------------------------------------------------------*/
+@media screen and (max-width: 478PX) {
+	body {
+		position: absolute;
+		overflow:auto;
+	}
+}
+@media screen and (max-width: 768PX) {
+	header {
+		position: absolute;	
+	}
+	#header h2 {
+		padding-left: 3%;
+		position: relative;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #405580;
+		border: 1px solid #FFF;
+		right: 20px;
+		top:60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	nav:hover ul {
+		display: block;
+	}
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+<script>
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+</script>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<h2> Marima Andrew Mambondiumwe </h2>
+		</div>
+		<nav>
+			<a href="#" id="menu-icon" ></a>
+			<ul>
+				<li><a href= "index.html" class="current">Home</a><li>
+				<li><a href= "about.html" >About</a><li>
+				<li><a href= "projects.html" >Projects</a><li>
+			</ul>
+		</nav>
+	</header>
+	<div id="doc">
+		<div id="content">
+				<div class="blueberry">
+					<ul class="slides">
+						<li><img src= "http://www.andrewmarima.com/images/a.png"/></li>
+						<li><img src= "http://www.andrewmarima.com/images/b.png"/></li>
+						<li><img src= "http://www.andrewmarima.com/images/c.png"/></li>
+						<li><img src= "http://www.andrewmarima.com/images/d.png"/></li>
+						<li><img src= "http://www.andrewmarima.com/images/e.png"/></li>
+					</ul>
+				</div>
+		</div>
+	</div>
+	<welcome>
+		<h1> Hello World!</h1>
+		<p> I'm a Python programmer and Website developer, Please feel free to navigate my site </p>
+	</welcome>
+	<footer>
+		<h4>@Copyright- Marima Andrew Mambondiumwe, 2017.</h4>
+		<h3>Connect with me!</h3>
+		<div>
+			<div id="footer">
+				<li><a href="https://www.facebook.com/mambondiumwe" target="_blank"><div class="box" id="facebook">&#62220;</div
+			<div id="footer">
+				<li><a href="https://www.instagram.com/andrew_marima/" target="_blank"><div class="box" id="instagram">&#62253;</div	
+			<div id="footer">
+				<li><a href="https://www.linkedin.com/in/andrew-marima-mambondiumwe-86478447/" target="_blank"><div class="box" id="linkedin">&#62232;</div	
+		</div>
+</body>
+</html>
