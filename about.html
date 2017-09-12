@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+<head>
+<meta charset= "utf-8" />
+<title> Marima Andrew Mambondiumwe</title>
+<meta name="viewport content"= "width=divice-width, initial-scale= 1.0">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+<style type="text/css">
+
+		
+	@import url(http://weloveiconfonts.com/api/?family=entypo);
+	#wrapper {
+		width: 350px;
+		height: 50px;
+		margin: 50px;
+		}
+		.box {
+			width: 70px;
+			height:70px;
+			border-radius: 70px;
+			font-family: entypo;
+			color: #212121; 
+			background: #fff;
+			text-align: center;
+			line-height: 70px;
+			font-size:40px;
+			display: block;
+			cursor: pointer;
+			margin: 10px;
+			transition: 1s;
+			}
+		.box:hover {
+			color: #fff;
+			transform: scale(1.15);
+			transition: 1s;	
+		}
+		#facebook:hover {
+			background-color: rgb(59, 89, 152);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+			}
+					
+		#linkedin:hover {
+			background-color: rgb(0, 123, 181);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+			}
+					
+		#instagram:hover {
+			background-color: rgb(233, 89, 80);
+			box-shadow: inset 0 0 0 22px #3A5795;
+			transform: rotate(360deg) scale(1.15);
+			transition: 1s;
+			}
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+body {
+	background: #f0f0f0;
+	font: 14px/20px Tangerine, San Serif;
+	color: #000000;
+	font-size:36px;
+	margin-top: 3%;
+	min-height: 400px
+	position:relative;
+}
+.image { 
+   	position: relative; 
+   	width: 100%;
+}
+h2 {
+	float:left;
+	padding-top:3%;
+	padding-bottom:1%;
+	font-size:1.2em;
+	color:#000000;
+	position:relative;
+}
+h3 {
+	padding-top:5%;
+	padding-bottom:1%;
+	font-size:40px;
+	color:#FFF;
+	position:relative;
+}
+h4 {
+	text-alignment:center;
+	float:center;
+	padding-top:1%;
+	padding-bottom:5%;
+	font-size:25px;
+	color:#FFF;
+	width: 600px;
+    	max-width:80%;
+    	margin:auto;
+	position:relative;
+	}
+a {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline
+}
+header {
+	background: #1E90FF;
+	width: 100%;
+	min-height: 110px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.70;	
+}
+nav{
+	float: right;
+	padding: 35px 35px 35px ;
+	top:0;
+	right: 0;
+	position: fixed;
+}
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+}
+a: hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+.current {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#doc {
+	margin: 40px 0;
+}
+#content {
+	margin: 0 auto;
+	max-width: 2500px;
+	margin-top: 110px;
+	
+}
+footer {
+	background: #333333;
+	max-width:2500px;
+	overflow: hidden;
+	opacity: 0.70;
+	line-height: 5px;
+	list-style-type: none;
+	font-color: #FFF;
+}
+footer h3 {
+	float:center;
+	padding-top:5%;
+	padding-bottom:1%;
+	font-size:40px;
+	position:relative;	
+}
+footer h4 {
+	float:center;
+	padding-top:1%;
+	padding-bottom:5%;
+	font-size:25px;
+    	margin:auto;
+	position:relative;
+	
+}
+.relative {
+	position:relative; 
+	width:600px;
+}
+.absolute-text {
+	position:absolute; 
+	bottom:0; 
+	font-size:24px; 
+	font-family:"vedana"; 
+	background:rgba(251,251,251,0.5);
+	padding:10px 20px;
+	max-width:2500px;
+	text-align:center;}
+.absolute-text a {
+	font-size:16px; 
+	color:#b92b27;
+}
+/*--------------- ----------------------MEDIA------------------------------------------------------------------*/
+@media screen and (max-width: 478PX) {
+	body {
+		position: absolute;
+		overflow:auto;
+	}
+}
+@media screen and (max-width: 768PX) {
+	header {
+		position: absolute;	
+	}
+	#header h2 {
+		padding-left: 3%;
+		position: relative;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #405580;
+		border: 1px solid #FFF;
+		right: 20px;
+		top:60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+	nav:hover ul {
+		display: block;
+	}
+}
+</style>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<h2> Marima Andrew Mambondiumwe </h2>
+		</div>
+		<nav>
+			<a href="#" id="menu-icon" ></a>
+			<ul>
+				<li><a href= "index.html" >Home</a><li>
+				<li><a href= "about.html"class="current" >About</a><li>
+				<li><a href= "projects.html" >Projects</a><li>
+			</ul>
+		</nav>
+	</header>
+	<div id="doc">
+		<div id="content">
+			<div class="image">
+				<img src= "http://www.andrewmarima.com/images/bground.png" alt=""/>
+				<p class ="absolute-text" > <a href=""http://www.andrewmarima.com/images/Marima's Resume.pdf" download="Marima's Resume.pdf">Download my Resume Here</a><br />My name is Marima Andrew Mambondiumwe, i'm a junior at Berea College in Kentucky, I'm double majoring in Computer Science and Business Administration, this is fuelled by my passion for technology and my ambition of venturing into entrepreneurship at some point in my career,most probably in the technology sector. I'm primarily a python programmer although i'm very familiar with HTML and CSS.My interests in relation to my field include web designing and development, network programming, tackling hackeranks challenges, participating in open-source online code sharing and collaboration on github and taking online courses on coursera. I'm excited about how the technology sector is rapidly growing and is vital to all industries, i hope to pursue a career where i can learn, grow and apply my skills and play a role in the development of various technologies. Berea College is a Liberal arts College and every student is required to have a labor position on campus,working a minimum of 10 hours every week.I work for the Campus Christian Center as a Student Chaplain Coordinator,  This position provides opportunities for growth in the areas of leadership, peer counseling, organization and management, programming, public speaking, religious education and interfaith dialogue.My responsibilities include providing peer supervision to the Student Chaplain team of 15 students,Seeking to uphold Berea College’s Third Commitment by providing a healthy model of servant leadership and serving as a liaison or bridge by helping connect students to appropriate campus support systems.</a> </p>
+			</div>			
+		</div>
+	</div>o
+	<footer>
+		<h4>@Copyright- Marima Andrew Mambondiumwe, 2017.</h4>
+		<h3>Connect with me!</h3>
+		<div>
+			<div id="footer">
+				<li><a href="https://www.facebook.com/mambondiumwe" target="_blank"><div class="box" id="facebook">&#62220;</div
+			<div id="footer">
+				<li><a href="https://www.instagram.com/andrew_marima/" target="_blank"><div class="box" id="instagram">&#62253;</div	
+			<div id="footer">
+				<li><a href="https://www.linkedin.com/in/andrew-marima-mambondiumwe-86478447/" target="_blank"><div class="box" id="linkedin">&#62232;</div	
+		</div>
+	</footer>
+</body>
+</html>
